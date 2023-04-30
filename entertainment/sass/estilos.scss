@@ -1,0 +1,432 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+@import "quesomos";
+
+
+
+
+/*mobile,pagina INICIO*/
+
+.auno{
+    font-size: 15px;
+    color: white;
+}
+
+.bodyreseña{
+    background: rgb(56,56,59);
+    font-family:'Poppins', sans-serif;
+    font-weight:bolder;
+    display:flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size:small;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+img{
+    border: black 2px solid;
+    margin-left: 125px;
+}
+
+
+h2{
+    text-align: center;
+    margin-left: 8px;
+}
+
+p{
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-weight:bolder;
+}
+
+//resumen y reseña*/
+
+
+.titulo-resumen{
+    margin-left: 20px;
+}
+
+.imgdos{
+    margin-left: 119px;
+}
+
+
+/*resumen y reseña**/
+
+.bodyreseñados{
+    background: rgb(56,56,59);
+    font-family:'Poppins', sans-serif;
+    font-weight:bolder;
+    display:flex;
+    flex-direction: column;
+}
+
+.cambio{
+    font-size: 12px;
+}
+
+
+.ados{
+    font-size: 15px;
+    font-weight: bold;
+    }
+        .bodyreseñados{
+            font-family:'Poppins', sans-serif;
+            font-size: 15px;
+            padding:20px;
+            background: rgb(56,56,59);
+            font-weight: bold;
+            padding: 5px;
+    }
+
+
+
+
+.footercelu{
+    padding: .5em;
+    background: rgb(56,56,59);
+    margin-bottom: 0;
+    margin-top: 1,5em;
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    width: 48px;
+    border: none;
+    margin: 10px;
+}
+
+
+.fondo{
+    background: rgb(231,231,238);
+}
+
+
+.imgcol{
+    height: 350x;
+    width: 350px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin-left: 29px;
+}
+
+.imgcoldos{
+    height: 350x;
+    width: 350px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin-left: 39px;
+}
+
+.htres{
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+
+/*producto*/
+
+.imgcoltres{
+    height: 350x;
+    width: 350px;
+    border: none;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+    margin-left: -1px;
+}
+
+.stock{
+    color: red;
+}
+
+/*que somos*/
+
+.logo{
+    height: 350x;
+    width: 350px;
+    border: none;
+    margin-left: 28px;
+
+}
+
+.up{
+    margin-bottom: 500px;
+}
+
+@media (min-width:730px){
+    
+    .htres{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+
+
+
+/**pantalla de compu*/
+
+
+@media (min-width:1024px){
+    .auno{
+        font-size: 15px;
+    }
+    .bodyreseñados{
+        background: rgb(56,56,59);
+        font-family:'Poppins', sans-serif;
+        font-size: 15px;
+        padding:20px;
+    }
+
+
+    h1{
+        font-size: 50px;
+        color: black;
+        margin-top: 15px;
+    }
+
+
+
+
+
+p{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    word-spacing: 7px;
+    color: black;
+}
+
+h2{
+    text-align: start;
+    margin-left: 140px;
+    color: black;
+    
+}
+
+img{
+    border: black 2px solid;
+}
+.imgs:hover{
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.imgs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        margin:0;
+        margin-left: 150px;
+    }
+
+
+footer{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    background: rgb(56,56,59);
+}
+
+/*resumen y reseña compu**/
+
+.ados{
+    font-size: 15px;
+}
+
+.bodyreseñados{
+    background: rgb(56,56,59);
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    padding:20px;
+}
+
+.titulo-resumen{
+    color: black;
+    text-align: center;
+}
+
+.imgdos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin:0;
+    border: 2px solid black;
+}
+
+
+.imgdos:hover{
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.titulo-reseña{
+    display: flex;
+    justify-content: center;
+
+}
+
+.cambio{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-weight:bolder;
+}
+
+.imgdos{
+    margin-left: 100px;
+}
+
+
+
+/*JUEGOS*/
+
+.down{
+    margin-top: 100px;
+}
+
+.imgcol{
+    height: 350x;
+    width: 350px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 115px;
+    align-self: center;
+}
+
+.htres{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    background: rgb(231,231,238);
+}
+
+.juegos{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.imgcoldos{
+    height: 350x;
+    width: 350px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+/*productos*/
+
+
+.stock{
+    color: red;
+}
+
+
+
+.mover{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.imgcoltres{
+    height: 300px;
+    width: 400px;
+}
+
+
+
+.footerproductos{
+    padding: 15px;
+    margin-top: 200px;
+}
+
+
+/*que somos*/
+
+
+.moverfooter{
+    margin: 50px;
+}
+
+.logo{
+    margin-bottom: 500px;
+    border: none;
+    margin-left: 600px;
+    height: 600px;
+    width: 600px;
+    margin-left: 10px;
+}
+
+
+.move{
+    text-align: center;
+}
+
+
+
+}
+.fondo-footer{
+    background: rgb(56,56,59);
+        .sass{
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+                .icon{
+                    display: flex;
+                    justify-content: space-between;
+            }
+    }
+
+}
+
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.icon{
+    @include sizes ( 48px, 48px);
+    border: none;
+    margin: 10px;
+}
+
+
+

@@ -1,0 +1,5 @@
+[
+    {"nombre": "PlayStation 5 en Stock", "precio": 400000, "id": 1},
+    {"nombre": "Xbox SeriesX en Stock", "precio": 250000, "id": 2},
+    {"nombre": "Nvidia en Stock", "precio": 3000000, "id": 3}
+]
